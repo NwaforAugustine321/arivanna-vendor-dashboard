@@ -36,7 +36,7 @@ export const CONSTANTS = {
     ACTIVECALL: "cometchat:activecall",
     MAX_MESSAGE_COUNT: 1000,
     METADATA_TYPE_LIVEREACTION: "live_reaction",
-    LIVE_REACTIONS: { "heart": "./resources/heart.png", "thumbsup": "👍", "clap": "👏", "wink": "😉" },
+    LIVE_REACTIONS: { "heart": "", "thumbsup": "👍", "clap": "👏", "wink": "😉" },
     MESSAGES_COMPONENT: "messages",
     EMBEDDED_COMPONENT: "embedded",
     OUTGOING_DEFAULT_CALLING: "outgoing_default",

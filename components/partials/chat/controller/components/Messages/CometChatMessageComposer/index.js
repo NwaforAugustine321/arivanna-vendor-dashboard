@@ -68,7 +68,7 @@ import stickerIcon from './resources/stickers.svg';
 import closeIcon from './resources/close.svg';
 import documentIcon from './resources/collaborative-document.svg';
 import whiteboardIcon from './resources/collaborative-whiteboard.svg';
-import heartIcon from './resources/heart.png';
+// import heartIcon from './resources/heart.png';
 
 class CometChatMessageComposer extends React.PureComponent {
     static contextType = CometChatContext;
