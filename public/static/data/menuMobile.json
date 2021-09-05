@@ -1,0 +1,38 @@
+{
+    "menuPrimary": {
+        "menu_1": [
+            {
+                "text": "Home",
+                "url": "/"
+            },
+            {
+                "__comment__": "Commented",
+                "text": "Products",
+                "url": "/product/all"
+            },
+            {
+                
+                "text": "Shop",
+                "url": "/shop"
+            },
+            {
+                "text": "About Us",
+                "url": "/page/about-us"
+            },
+            {
+                "text": "Contact Us",
+                "url": "/page/contact-us"
+            },
+            {
+                "text": "Stores",
+                "url": "/stores"
+            },
+            {
+                "text": "Faqs",
+                "url": "/page/faqs"
+            }
+       ]
+}
+}
+
+

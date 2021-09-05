@@ -1,0 +1,42 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "http://localhost:5000",
+    "experimentalFetchPolyfill": true,
+    "viewportWidth": 1500,
+    "viewportHeight": 1000,
+    "projectId": "y9mgk2",
+    "env":{
+        "api_route":"https://df1be2sfo9.execute-api.us-east-2.amazonaws.com/dev/api/",
+        "buyer_login":{
+            "email":"testbuyer@test.com",
+            "password":"1111111111"
+        },
+        "buyer_create":{
+            "user_first_name":"Buyer",
+            "user_last_name":"Test",
+            "user_phone_number":"0123456789",
+            "user_email":"testbuyer@test.com",
+            "country":"Nigeria",
+            "city":"Kwara",
+            "weak_password":"1111111111",
+            "medium_password":"hfwbc;sb27y9",
+            "strong_password":"109hbd0938x109PMP;,;dimk",
+            "verification_code":"utopia123develop"
+        }, 
+        "vendor_create":{
+            "company_name":"Company",
+            "company_address":"No 2, Magongo Road, Tanke, Ilorin",
+            "company_description":"This is a short description of my business.",
+            "user_first_name":"Buyer",
+            "user_last_name":"Test",
+            "user_phone_number":"0123456789",
+            "user_email":"testbuyer@test.com",
+            "country":"Nigeria",
+            "city":"Kwara",
+            "weak_password":"1111111111",
+            "medium_password":"hfwbc;sb27y9",
+            "strong_password":"109hbd0938x109PMP;,;dimk",
+            "verification_code":"utopia123develop"
+        }
+    }
+}
