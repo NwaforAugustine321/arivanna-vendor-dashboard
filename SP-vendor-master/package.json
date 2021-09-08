@@ -11,7 +11,7 @@
         "start": "next start -p 3002",
         "export": "next export",
         "serve": "serve out",
-        "dev": "npm run build && npm run export && npm run serve",
+        "dev": "CI=false npm run build && npm run export && npm run serve",
         "deploy": "npm run build && npm run export && firebase deploy"
     },
     "dependencies": {
