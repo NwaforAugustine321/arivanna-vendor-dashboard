@@ -36,3 +36,5 @@ cypress/screenshots
 next.config.js
 .firebaserc
 firebase.json
+*.json
+*.rules
